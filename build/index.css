@@ -1,0 +1,7 @@
+@import url('./../src/fonts/style.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gilroy', sans-serif !important;
+}

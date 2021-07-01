@@ -1,0 +1,25 @@
+.Buttons {
+    width: 100%;
+    height: 345px;
+    display: flex;
+    ul {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            list-style-type: none;
+            width: 87px;
+            height: 87px;
+            text-align: center;
+            line-height: 87px;
+            color: white;
+            background-color: #222831;
+            transition: .3s;
+        }
+        li:hover {
+            background-color: #00ADB5;
+            cursor: pointer;
+        }
+    }
+}
